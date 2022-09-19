@@ -32,14 +32,4 @@ contract AttackCoinFlip {
 
         emit AttackResult(result, block.number);
     }
-
-    function getConsecutiveWins() external returns (uint256) {
-        uint256 wins = coinFlipAddr.consecutiveWins();
-        emit ConsecutiveWins(wins);
-        return wins;
-    }
-
-    function getBlockNumber() external view returns (uint256) {
-        return block.number;
-    }
 }

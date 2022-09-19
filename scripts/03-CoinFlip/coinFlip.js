@@ -1,6 +1,5 @@
 const { Alchemy } = require("alchemy-sdk");
 const hre = require("hardhat");
-const { ethers } = hre;
 
 async function main() {
   const COINFLIP_ADDRESS = "0x66BD1DAFc0a8ea1E909128a374b98EAbE1B7066e";
