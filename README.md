@@ -24,9 +24,11 @@ PRIVATE_KEY=0xabc123abc123abc123abc123abc123abc123abc123abc123abc123abc123abc1
 
 ### Using Remix IDE
 
-You can manualy deploy `contracts/03-CoinFlip/AttackCoinFlip.sol` in Remix IDE and call `attack()` manually 10 times.
+You can manualy deploy `contracts/03-CoinFlip/AttackCoinFlip.sol` from Remix IDE and call `attack()` manually 10 times.
 
 ### Using Hardhat Script
+
+`scripts/03-CoinFlip/coinFlip.js`
 
 `hardhat run scripts/03-CoinFlip/coinFlip.js --network rinkeby`
 
